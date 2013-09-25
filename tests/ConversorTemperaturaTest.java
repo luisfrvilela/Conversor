@@ -18,26 +18,15 @@ public class ConversorTemperaturaTest {
 		
 	}
 
-	@Test
-	public void testCelsiusParaFahrenheit() {
-		assertEquals(104,meuConversor.celsiusParaFahrenheit());
-		
-	}
-	
-	@Test
-	public void testCelsiusParaFahrenheitValorInt() {
-		assertEquals(104,meuConversor.celsiusParaFahrenheit(40));
-		
-	}
 	
 	@Test
 	public void testCelsiusParaFahrenheitValorDouble() {
-		assertEquals(104.0,meuConversor.celsiusParaFahrenheit(40.0),0.01);
+		assertEquals(80.6,meuConversor.celsiusParaFahrenheit(27.0),0.01);
 		
 	}
 	
 	@Test
-	public void testFahrenheitParaCelsius() {
+	public void testFahrenheitParaCelsiusValorDouble() {
 		assertEquals(10.5,meuConversor.fahrenheitParaCelsius(51.0),0.1);
 		
 	}
